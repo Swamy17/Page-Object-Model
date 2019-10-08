@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" ignored="0" total="2" passed="0">
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Flipkart01" duration-ms="70655" started-at="2019-09-29T12:33:53Z" finished-at="2019-09-29T12:35:03Z">
+  <suite name="Flipkart01" duration-ms="21914" started-at="2019-10-08T13:49:48Z" finished-at="2019-10-08T13:50:10Z">
     <groups>
     </groups>
-    <test name="FlipkartApp Test" duration-ms="70655" started-at="2019-09-29T12:33:53Z" finished-at="2019-09-29T12:35:03Z">
+    <test name="FlipkartApp Test" duration-ms="21914" started-at="2019-10-08T13:49:48Z" finished-at="2019-10-08T13:50:10Z">
       <class name="com.flipkart.TestCases.TC_AddCustomerTest_003">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.flipkart.TestCases.TC_AddCustomerTest_003@26653222]" name="setUp" is-config="true" duration-ms="11876" started-at="2019-09-29T18:04:35Z" finished-at="2019-09-29T18:04:47Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.flipkart.TestCases.TC_AddCustomerTest_003@3ffc5af1]" name="setUp" is-config="true" duration-ms="10446" started-at="2019-10-08T19:19:48Z" finished-at="2019-10-08T19:19:59Z">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="addNewCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.flipkart.TestCases.TC_AddCustomerTest_003@26653222]" name="addNewCustomer" duration-ms="14931" started-at="2019-09-29T18:04:48Z" data-provider="CustomerTestData" finished-at="2019-09-29T18:05:03Z">
+        <test-method status="FAIL" signature="addNewCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.flipkart.TestCases.TC_AddCustomerTest_003@3ffc5af1]" name="addNewCustomer" duration-ms="10575" started-at="2019-10-08T19:20:00Z" data-provider="CustomerTestData" finished-at="2019-10-08T19:20:10Z">
           <params>
             <param index="0">
               <value>
@@ -96,20 +96,20 @@
               <![CDATA[unexpected alert open: {Alert text : please fill all fields}
   (Session info: chrome=77.0.3865.90): please fill all fields
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-0DQDFNNV', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+System info: host: 'LAPTOP-0DQDFNNV', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\Kumar\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56801}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 2feca9a0ca4ca0fab0da96664c41a06d
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\Kumar\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63098}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 39fe4d858d5e2c2c01d84170b18e377f
 *** Element info: {Using=xpath, value=//input[@type='password']}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : please fill all fields}
   (Session info: chrome=77.0.3865.90): please fill all fields
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-0DQDFNNV', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+System info: host: 'LAPTOP-0DQDFNNV', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\Kumar\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56801}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 2feca9a0ca4ca0fab0da96664c41a06d
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\Kumar\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63098}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 39fe4d858d5e2c2c01d84170b18e377f
 *** Element info: {Using=xpath, value=//input[@type='password']}
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -157,93 +157,6 @@ Session ID: 2feca9a0ca4ca0fab0da96664c41a06d
           </reporter-output>
         </test-method> <!-- addNewCustomer -->
       </class> <!-- com.flipkart.TestCases.TC_AddCustomerTest_003 -->
-      <class name="com.flipkart.TestCases.TC_LoginTest_001">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.flipkart.TestCases.TC_LoginTest_001@5e5792a0]" name="setUp" is-config="true" duration-ms="12372" started-at="2019-09-29T18:03:53Z" finished-at="2019-09-29T18:04:05Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="loginTest()[pri:0, instance:com.flipkart.TestCases.TC_LoginTest_001@5e5792a0]" name="loginTest" duration-ms="30129" started-at="2019-09-29T18:04:05Z" finished-at="2019-09-29T18:04:35Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#intlChilds"}
-  (Session info: chrome=77.0.3865.90)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-0DQDFNNV', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\Kumar\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56753}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 1bd91d54ad15aec3b30dd388021ccfd6
-*** Element info: {Using=id, value=intlChilds}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#intlChilds"}
-  (Session info: chrome=77.0.3865.90)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-0DQDFNNV', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\Kumar\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56753}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 1bd91d54ad15aec3b30dd388021ccfd6
-*** Element info: {Using=id, value=intlChilds}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
-	at org.openqa.selenium.By$ById.findElement(By.java:188)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy11.getTagName(Unknown Source)
-	at org.openqa.selenium.support.ui.Select.<init>(Select.java:44)
-	at com.flipkart.PageObjects.LoginPage.setdp(LoginPage.java:112)
-	at com.flipkart.TestCases.TC_LoginTest_001.loginTest(TC_LoginTest_001.java:42)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-      </class> <!-- com.flipkart.TestCases.TC_LoginTest_001 -->
     </test> <!-- FlipkartApp Test -->
   </suite> <!-- Flipkart01 -->
 </testng-results>

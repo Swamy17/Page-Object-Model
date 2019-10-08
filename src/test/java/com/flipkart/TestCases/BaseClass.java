@@ -44,6 +44,7 @@ public class BaseClass {
 				
 				System.setProperty("webdriver.chrome.driver", readConfig.getChromepath());
 		driver=new ChromeDriver();
+		System.out.println("Im in BaseClass");
 		}
 		/*else if(equals("IE"))
 		{

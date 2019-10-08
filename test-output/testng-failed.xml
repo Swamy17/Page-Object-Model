@@ -10,12 +10,6 @@
           <include name="setUp"/>
         </methods>
       </class> <!-- com.flipkart.TestCases.TC_AddCustomerTest_003 -->
-      <class name="com.flipkart.TestCases.TC_LoginTest_001">
-        <methods>
-          <include name="loginTest"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.flipkart.TestCases.TC_LoginTest_001 -->
     </classes>
   </test> <!-- FlipkartApp Test(failed) -->
 </suite> <!-- Failed suite [Flipkart01] -->
