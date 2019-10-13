@@ -101,6 +101,7 @@ WebDriver driver;
 		 // Selecting all the elements one by one
 		 oSelect.selectByIndex(i);
 		 Thread.sleep(2000);
+		 System.out.println("This is pull from GITHUB");
 		 }
 	}
 	
