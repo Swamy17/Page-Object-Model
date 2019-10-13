@@ -26,7 +26,7 @@ WebDriver driver;
 	{
 		this.driver=driver;
 		PageFactory.initElements(driver,this);
-		System.out.println("THis is new check in");
+		System.out.println("THis is new check in hi ");
 				
 			}
 	
