@@ -161,6 +161,7 @@ public void custemailid(String cemailid)
 {
 	
 txtemailid.sendKeys(cemailid);
+System.out.println("This is the AddCustomer Page");
 }
 
 public void clickSubCustomer()
