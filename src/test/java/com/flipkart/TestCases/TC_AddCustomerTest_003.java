@@ -25,6 +25,8 @@ public class TC_AddCustomerTest_003 extends BaseClass {
 		
 		AddCustomerPage addcust=new AddCustomerPage(driver);
 		
+		System.out.println("This is 3rd method:");
+		
 		addcust.setUserName(user);
 		addcust.setPassWord(pwd);
 		addcust.clickSubmit();
