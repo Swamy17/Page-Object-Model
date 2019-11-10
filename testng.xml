@@ -6,7 +6,8 @@
 	<test name="FlipkartApp Test">
 		<parameter name="browser" value="chrome" />
 		<classes>
-				<class name="com.flipkart.TestCases.TC_AddCustomerTest_003" />
+				<class name="com.flipkart.TestCases.TC_MakeMyTrip_Tabs_001" />
 		</classes>
 	</test>
+	
 </suite>
