@@ -88,6 +88,7 @@ public class TC_AddCustomerTest_003 extends BaseClass {
 				for(int j=0;j<colnum;j++)
 				{
 					cusdata[i-1][j]=XLUtils.getCellData(path,"Sheet1",i,j);
+					System.out.println("Im in @Data provider");
 				}
 			}
 			//driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
